@@ -1,0 +1,16 @@
+{
+  "name": "manage-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss-cli@latest -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss-cli@latest -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
