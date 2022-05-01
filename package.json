@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss-cli@latest -i ./input.css -o ./css/main.css",
+    "build": "npx tailwindcss-cli@latest tailwindcss-cli -i ./input.css -o ./css/main.css",
     "watch": "npx tailwindcss-cli@latest -i ./input.css -o ./css/main.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Oussama Lamnaouer",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
